@@ -1,0 +1,53 @@
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.533 seconds
+desktop: 1366x768 50Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Henry\Desktop\MFADT\2015 - Fall\Thesis 1\Prototype 4\ProtoChanged\Proto4\ShelterWitch\ShelterWitchv3_Data\Managed\System.dll (this message is harmless)
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 464c -> priority: 1 
+  Thread -> id: 4100 -> priority: 1 
+  Thread -> id: 22e0 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 82.131805 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 518.
+Total: 7.908976 ms (FindLiveObjects: 0.053008 ms CreateObjectMapping: 0.014793 ms MarkObjects: 7.735979 ms  DeleteObjects: 0.097798 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 28.388403 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 518.
+Total: 0.355856 ms (FindLiveObjects: 0.065336 ms CreateObjectMapping: 0.044790 ms MarkObjects: 0.155327 ms  DeleteObjects: 0.089580 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 27.784351 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 518.
+Total: 0.458586 ms (FindLiveObjects: 0.100675 ms CreateObjectMapping: 0.016847 ms MarkObjects: 0.218198 ms  DeleteObjects: 0.120399 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 33.000568 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 518.
+Total: 0.375580 ms (FindLiveObjects: 0.069445 ms CreateObjectMapping: 0.046023 ms MarkObjects: 0.162313 ms  DeleteObjects: 0.096566 ms)
+
