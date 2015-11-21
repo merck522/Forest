@@ -6,13 +6,16 @@ using System.IO.Ports;
 public class SerialEulerA : MonoBehaviour {
 
 	SerialPort stream = new SerialPort("COM3", 115200);
-	//SerialPort stream = new SerialPort("\\\\.\\COM20", 115200);
+	//SerialPort stream = new SerialPort("\\\\.\\COM18", 115200, Parity.None, 8, StopBits.One);  // My Bluetooth COM port
 	public Quaternion direction;
 
 
 	
 	void Start () {
-
+		string[] portList= SerialPort.GetPortNames();
+		for (int i = 0; i < portList.Length; i++) {
+			Debug.Log (portList[i]);
+		}
 	}
 	
 	void Update () {
