@@ -8,7 +8,7 @@ public class SerialEulerA : MonoBehaviour {
 	SerialPort stream = new SerialPort("COM3", 115200);
 	//SerialPort stream = new SerialPort("\\\\.\\COM18", 115200, Parity.None, 8, StopBits.One);  // My Bluetooth COM port
 	public Quaternion direction;
-
+	private AudioSource[] sounds;
 
 	
 	void Start () {
@@ -16,6 +16,7 @@ public class SerialEulerA : MonoBehaviour {
 		for (int i = 0; i < portList.Length; i++) {
 			Debug.Log (portList[i]);
 		}
+		sounds = this.GetComponents<AudioSource>();
 	}
 	
 	void Update () {
@@ -30,10 +31,19 @@ public class SerialEulerA : MonoBehaviour {
 				if (int.Parse(strEul[2]) == 1) {
 					this.GetComponent<Rigidbody>().AddForce(this.transform.forward * 30f);
 
-				}
+				} 
 				if (int.Parse(strEul[1]) == 1) {
 					this.GetComponent<Rigidbody>().AddForce(this.transform.forward * -30f);
-					
+					sounds[1].volume = 1.0f;
+				} 
+				if ((int.Parse(strEul[2]) == 1) || (int.Parse(strEul[1])) == 1) {
+					sounds[1].volume = 1.0f;
+				} else {
+					if (sounds[1].volume > 0.05f) {
+						sounds[1].volume = sounds[1].volume * 0.9f;
+					} else {
+						sounds[1].volume = 0.0f;
+					}
 				}
 			}
 
@@ -46,13 +56,6 @@ public class SerialEulerA : MonoBehaviour {
 
 	}
 
-	IEnumerator SerialOperation() {
 
-		while(true) {
-
-			yield return null;
-				
-		}
-	}
 }
 
