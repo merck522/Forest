@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialEulerA.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Proto4\Assets\FireBullets.cs">
     <Files>
-      <File FileName="Assets\SerialEulerA.cs" Line="59" Column="2" />
+      <File FileName="..\..\Proto4\Assets\FireBullets.cs" Line="16" Column="108" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

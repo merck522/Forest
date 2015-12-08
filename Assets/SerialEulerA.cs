@@ -29,12 +29,13 @@ public class SerialEulerA : MonoBehaviour {
 				direction = Quaternion.Euler (new Vector3( -float.Parse(strEul[5]), float.Parse (strEul[3]), float.Parse(strEul[4])));
 				this.transform.rotation = direction;
 				if (int.Parse(strEul[2]) == 1) {
-					this.GetComponent<Rigidbody>().AddForce(this.transform.forward * 30f);
-
+					//this.GetComponent<Rigidbody>().AddForce(this.transform.forward * 30f);
+					this.GetComponent<CharacterController>().SimpleMove(this.transform.forward * 3f);
 				} 
 				if (int.Parse(strEul[1]) == 1) {
-					this.GetComponent<Rigidbody>().AddForce(this.transform.forward * -30f);
-					sounds[1].volume = 1.0f;
+					//this.GetComponent<Rigidbody>().AddForce(this.transform.forward * -30f);
+					this.GetComponent<CharacterController>().SimpleMove(this.transform.forward * -3f);
+					//sounds[1].volume = 1.0f;
 				} 
 				if ((int.Parse(strEul[2]) == 1) || (int.Parse(strEul[1])) == 1) {
 					sounds[1].volume = 1.0f;

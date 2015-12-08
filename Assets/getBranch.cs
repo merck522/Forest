@@ -4,6 +4,7 @@ using System.Collections;
 public class getBranch : MonoBehaviour {
 
 	private float reach = 14.0f;
+	public GameObject cam;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +20,11 @@ public class getBranch : MonoBehaviour {
 			Debug.Log ("Branch");
 			hit.transform.GetComponent<Collider>().enabled = false;
 			hit.transform.gameObject.layer = 0;
+			hit.transform.GetComponent<Rigidbody>().useGravity = false;
+			hit.transform.GetComponent<Rigidbody>().isKinematic = true;
 			hit.transform.position = this.transform.position;
+			hit.transform.parent = cam.transform;
+			//hit.transform.position = this.transform.position;
 			hit.transform.GetComponent<AudioSource>().Play(); 
 		}
 	}
